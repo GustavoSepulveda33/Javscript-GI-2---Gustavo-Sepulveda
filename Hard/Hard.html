@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-GI#2 Gustavo Sepulveda: Hard</title>
+    <link href="./Hard.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Javascript GI #2</h1>
+        <h2>Gustavo Sepulveda</h2>
+    </header>
+
+
+    <nav>
+        <ul class="nav-bar">
+            <li class="nav-item"><a href="../Very Easy/Very-Easy.html">Very Easy</a></li>
+            <li class="nav-item"><a href="../Easy/Easy.html">Easy</a></li>
+            <li class="nav-item"><a href="../Medium/Medium.html">Medium</a></li>
+            <li class="nav-item"><a href="./Hard.html">Hard</a></li>
+        </ul>
+    </nav>
+
+<main>
+    <h3>Hard: BMI Calculation</h3>
+
+<div class="ve-container">
+    <h4>Consider the following:</h4>
+    <!-- <p>Tom  	height:  9 in   	mass: 8 g <br>
+    Jerry  	height: 10 in 	mass: 45 g</p> -->
+    <div class="variables">
+        <p> TOM: <br>Height: 9in <br>Mass: 8g </p>
+        <p>JERRY: <br>Height: 10in <br>Mass: 45g </p>
+    </div>
+
+    <h5>Before you compare their BMIs <br> who do you think has the higher BMI?</h5>
+    <form class="radio">
+
+        <label for="Tom">Tom</label>
+        <input type="radio" id="radioTom" name="CalcType" value="Tom">
+
+        <br>
+
+        <label for="Jerry">Jerry</label>
+        <input type="radio" id="radioJerry" name="CalcType" value="Jerry">
+
+        <br>
+
+        <!-- <label for="BMIComp">Both</label>
+        <input type="radio" id="radioComp" name="CalcType" value="BMI Comparison"> -->
+    </form>
+
+    <!-- <p class="question"><em>Is Tom's BMI higher than Jerry's?</em></p> -->
+    <br>
+    <button class="button" onclick="bmiChoice()">Calculate BMI</button>
+
+
+    <h6>ANSWER:</h6>
+    <div id="answer"></div>
+    <div id="sub-answer1"></div>
+    <div id="sub-answer2"></div>
+
+    <!-- <div id="hiddenContainer" style="display: none;">
+        <p class="secondQ">Who do you think has a higher BMI? Tom or Jerry?</p>
+        <form class="secondForm">
+            <label for="Tom">Tom</label>
+            <input type="radio" id="sndQTom" name="comparison" value="Tom">
+
+            <br>
+
+            <label for="Jerry">Jerry</label>
+            <input type="radio" id="sndQJerry" name="comparison" value="Jerry">
+
+        </form>
+
+        <br>
+
+        <button class="secondButton" onclick="bmiComp()">Check and see!</button>
+    </div> -->
+
+
+</div>
+
+
+
+</main>
+
+
+
+<script src="./Hard.js"></script>
+</body>
+</html>
